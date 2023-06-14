@@ -7,7 +7,7 @@ on:
 
 jobs:
   main:
-    uses: Qteal/runbooks/.github/workflows/update.yml@reverse-eol
+    uses: Qteal/runbooks/.github/workflows/update.yml@main
     with:
       dists-json: '["bionic", "focal", "jammy"]'
       version: ${{ inputs.version }}
