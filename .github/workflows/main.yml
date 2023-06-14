@@ -1,3 +1,6 @@
+on:
+  push
+
 jobs:
   main:
     uses: Qteal/runbooks/.github/workflows/update.yml@reverse-eol
