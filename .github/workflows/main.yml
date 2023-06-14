@@ -7,8 +7,8 @@ on:
 
 jobs:
   main:
-    uses: Qteal/runbooks/.github/workflows/update.yml@main
+    uses: Qteal/runbooks/.github/workflows/update.yml@reverse-eol
     with:
       dists-json: '["bionic", "focal", "jammy"]'
-      version: ${{ inputs.version }}
+      version: "3.11.3"
     secrets: inherit
