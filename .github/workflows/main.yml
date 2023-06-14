@@ -3,7 +3,7 @@ on:
 
 jobs:
   main:
-    uses: Qteal/runbooks/.github/workflows/update.yml@reverse-eol
+    uses: qteal/runbooks/.github/workflows/update.yml@reverse-eol
     with:
       dists-json: '["bionic", "focal", "jammy"]'
       version: "3.11.3"
